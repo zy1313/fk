@@ -1,0 +1,515 @@
+.breadnav {
+    width: 1200px;
+    height: 40px;
+    clear: both;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 40px;
+    .locationdiv {
+        display: inline;
+        float: left;
+
+        span {
+            color: #b4b4b4;
+            font-size: 12px;
+        }
+
+        a:link,
+        a:visited {
+            color: #333;
+            text-decoration: none;
+            font-size: 12px;
+        }
+    }
+    .tsmsg {
+        display: inline;
+        float: right;
+        color: #b4b4b4;
+        font-size: 12px;
+        span{
+            color: #a00000;
+            padding: 0px 2px;
+        }
+    }
+}
+.clearfix {
+    display: inline-block;
+    overflow: hidden;
+}
+.selectareali01 {
+    background: #fff;
+}
+.selectarea {
+    border: 1px solid #C7CACD;
+    clear: both;
+    padding: 0px 1px 0px 0px;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: normal;
+
+    .selectareaLeft {
+        display: inline;
+        float: left;
+        width: 50px;
+        text-align: center;
+    }
+}
+.selectareaLeft em {
+    color: #2f2f2f;
+}
+.selectareaRight {
+    display: inline;
+    float: left;
+    width: 926px;
+    padding: 5px 0px 5px;
+    border-left: 1px solid #ccc;
+    background: #fff;
+}
+.selectareaRight ul {
+    overflow: hidden;
+}
+.selectareaRight ul li {
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 25px;
+    _margin-left: 24px;
+    white-space: nowrap;
+    _float: none;
+    _display: inline-block;
+    _display: inline;
+    _zoom: 1;
+}
+.selectareaRight li a {
+    display: block;
+    float: left;
+    min-width: 11px;
+}
+.selectareaRight li a span {
+    color: #999;
+    height: 20px;
+}
+.selectareali_a {
+    height: 1px;
+    overflow: hidden;
+    display: block;
+    background: url(http://i.vanclimg.com/search/sprites_20130606.png) repeat 0 -2279px;
+}
+.selectareali, .selectareali01 {
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+    line-height: 24px;
+    background: #f5f5f5;
+}
+.selectkinds {
+    background-color: #ededed;
+    overflow: hidden;
+    zoom: 1;
+    padding: 0px;
+}
+.colorarea {
+    display: inline;
+    float: left;
+    width: 370px;
+    margin-left: 10px;
+}
+.selectkinds h2 {
+    color: #72727c;
+    font-size: 12px;
+    font-weight: normal;
+    width: 1200px;
+    height: 24px;
+
+    .colorlist{
+    width: 1200px;
+    height: 24px;
+    ul{
+        width: 1200px;
+        height: 24px;
+        .hovera{
+            width: 40px;
+            height: 24px;  
+        }
+        li{
+            float: left;
+            width: 20px;
+            height: 24px;
+            a{
+                display: inline-block;
+                width: 17px;
+                height: 17px;
+            }
+        }  
+        .s_color0{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -259px;
+            height: 17px;
+            width: 31px;
+         
+          
+        }
+        .s_color1{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -276px;
+           
+        }
+        .s_color2{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -293px;
+            
+        }
+        .s_color3{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -208px;
+    
+        }
+        .s_color4{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -225px;
+    
+        }
+        .s_color5{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -242px;
+    
+        }
+        .s_color6{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -361px;
+    
+        }
+        .s_color7{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -378px;
+    
+        }
+        .s_color8{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -344px;
+    
+        }
+        .s_color9{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -327px;
+    
+        }
+        .s_color10{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -310px;
+    
+        }
+        .s_color11{
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -191px;
+    
+        }
+    }
+    }
+}
+
+.all{
+    width: 1200px;
+    height: 67px;
+    margin: 0 auto;
+    background: #C7CACD;
+    margin-top: 30px;
+    .alltop{
+        width: 1200px;
+        height: 30px;
+        
+        .alltopl{
+            width: 88px;
+            height: 30px;
+            background: #a00000;
+            color: #fff;
+            float: left;
+        }
+        .alltopr{
+            width: 121px;
+            height: 30px;
+            background: red;
+            display: inline-block;
+            float: right;
+        }
+    }
+    .bottom{
+        width: 1200px;
+        height: 34px;
+        .first{
+            width: 1200px;
+            height: 34px;
+            border-top: 2px solid #a00000;
+            background: #ededed;
+            li{
+                width: 74px;
+                height: 34px;
+                float: left;
+                line-height: 34px;
+                color: #72727c;
+                text-align: center;
+                border: 1px solid #cccc;
+                em{
+                    font-size: 14px;
+                    color: #72727c;
+                }
+                input{
+                    width: 40px;
+                    height: 17px;
+                    display: inline;
+                }
+                i{
+                    display: inline-block;
+                    width: 11px;
+                    height: 12px;
+                    
+                }
+                .i1,.i2,.i3{
+                    background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat  0px -3090px;
+                    
+                }
+                .i4{
+                    background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat  0px -3112px;
+                     
+                }
+                .i5{
+                    background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat  -21px -3090px;
+                  
+                }
+                .i6{
+                    background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -3131px;
+                    
+                }
+              .second{
+                  background:#ededed; 
+                  display: none;
+                
+                  li:hover{
+                    color:#a00000; 
+                    background: #c3c3c3; 
+                  }
+              }
+            }
+            .price:hover .second{
+                display: block;
+            }
+            .find{
+                width: 120px;
+                height: 34px;
+            }
+            li>a>em:hover{
+                color:#a00000;
+            } 
+            .last{
+                float: right;
+                width: 89px;
+                height: 34px;
+                background: #ccc;
+            &:hover{
+                color:#a00000;
+            }
+        }
+        }
+    }
+}
+
+#allfixed{
+    position: fixed;
+    top: -30px;
+    left: 159px;
+    display: none;
+    z-index: 99999;
+}
+
+
+
+
+.contentlist{
+    width: 1200px;
+    height: 3590px;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    .contentul{
+        width: 1200px;
+        height: 3590px;
+        li{
+            width: 231px;
+            height: 303px;
+            float: left;
+            margin-right: 9px;
+            margin-top: 20px;
+            position: relative;
+            &:nth-of-type(5n) .big{
+                position: absolute;
+                left: -244px !important;
+                top: -60px;
+            }
+            img{
+                width: 100%;
+            }
+            
+            .contimg{
+                width: 230px;
+                height: 230px;
+                position: relative;
+                .teshui{
+                    position: absolute;
+                    background: url(../img/list.png) no-repeat 0px -841px;
+                  width: 60px;
+                  height: 45px;
+                  bottom: 0;
+                  right: -14px;
+                  text-align: center;
+                  line-height: 53px;
+                  color: white;
+                }
+                .newview{
+                    position: absolute;
+                    background: url(../img/list.png) no-repeat 0 -631px;
+                  width: 60px;
+                  height: 23px;
+                  top: 0;
+                  left: 0;
+                }
+            }
+            p{
+                font-size: 14px;
+                // color: gray !important;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .Mpricediv0124{
+                width: 230px;
+                height: 50px;
+                text-align: center;
+                color: #a00000;
+                font-size: 14px;
+                line-height: 50px;
+                .Sprice{
+                    font-weight:bold;
+                    strong{
+                        text-decoration: line-through;
+                    }
+                }   
+            }
+            .big{
+                width: 366px;
+                height: 500px;
+                position: absolute;
+                background: #e6eaf3;
+                display: none;
+                left: 244px;
+                top: -60px;
+                border: 1px solid black;
+                z-index: 999999;
+             
+                img{
+                    width: 340px;
+                    height: 300px;
+                    margin-left: 15px;
+                    margin-top: 20px;
+                }
+                p{
+                    width: 300px;
+                    height: 20px;
+                    // margin-left: 15px;
+                    margin-top: 20px;
+                    color: black;
+                }
+                .number{
+                    font-size: 18px;
+                    margin-left: 15px;
+                    margin-top: 10px;
+                    color: #ccc !important;
+                    font-size: 12px;
+                    width: 250px;
+                    height: 20px;
+                   
+                    p{
+                        display: inline;
+                    }
+                    
+                }
+                .Mpricediv0124{
+                        width: 250px;
+                        height: 40px;
+                        text-align: center;   
+                        color: #b81c22;
+                        span{
+                            font-size: 14px;
+                        }
+                        div{
+                            float: right;
+                            font-size: 20px;
+    
+                        }
+                    }
+            }
+        }
+       
+    }
+}
+
+// 分页
+.pageWarp{
+    width: 1200px;
+    height: 26px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+.page{
+    width: 341px;
+    height: 26px;
+    
+    float: right;
+    font-size: 12px;
+    input{
+        width: 18px;
+        height: 17px;
+        line-height: 24px;
+        text-align: center;
+       
+    }
+    strong{
+        font-weight: normal;
+        font-size: 14px;
+    }
+    em{
+        font-style: normal;
+        font-size: 14px;
+    }
+    .type1{
+        display: inline-block;
+        border: 1px solid #ccc;
+        line-height: 16px;
+        margin-top: 2px;
+    }
+    .go{
+    background:url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat scroll 3px -1996px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    }
+    .next{
+    background:url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat scroll 46px -1954px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    }
+    .type2{
+    display: inline-block;
+    height: 21px;
+    width: 29px;
+    background: #a00000;
+    text-align: center;
+    font-size: 16px;
+    }
+    .type3{
+    display: inline-block;
+    border: 1px solid #ccc;
+    line-height: 16px;
+    }
+    button{
+        background: #a00000;
+        color: white;
+        border: 0;
+        width: 53px;
+        height: 21px;
+    }
+}
+}
+
+
+
+

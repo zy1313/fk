@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    width: 1200px;
+    height: 59px;
+    /* margin:10px 0 0 0; */
+    padding: 0 0 10px 0;
+    border-bottom: solid 1px #919191;
+    margin: 10px auto;
+}
+
+.content {
+    width: 1200px;
+    height: 547px;
+    margin: 30px auto;
+    position: relative;
+    /* background: lightpink */
+}
+
+.content .left {
+    width: 465px;
+    height: 500px;
+    /* border-left: 1px solid #C3C3C3; */
+    float: left;
+    /* background-color: #F9F9F9; */
+    margin: 0 0 0 130px;
+    /* background: lightsalmon; */
+
+}
+
+.left img {
+    position: absolute;
+    left: 130px;
+    top: 80px;
+}
+/* 右边 */
+.content .right {
+    width: 465px;
+    height: 500px;
+    /* background: lightyellow; */
+    float: right;
+    margin-right: 124px;
+}
+
+.right h1 {
+    height: 35px;
+    width: 415px;
+    font-size: 20px;
+    color: #a2a2a2;
+    margin-top: 20px;
+    font-weight: normal;
+    border-bottom: 2px solid #b81e20;
+    float: right;
+    line-height: 35px;
+}
+
+.right h1 span {
+    font-size: 14px;
+    float: right;
+}
+
+.right h1 span a {
+    color: #b52024;
+}
+/* 表单 */
+.right .form form {
+    height: 445px;
+    margin-top: 100px;
+    margin-left: 40px;
+    /* border: solid blue 1px; */
+
+}
+/* 输入框 */
+.form .tupian,.form .shouji,.form .mima,.form .mima1,.form,.form .shouji1{
+    width: 465px;
+    height:65px;
+
+}
+/* 第一个输入框 */
+.right .text1 {
+    width: 260px;
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid rgb(203, 203, 203);
+    /* z-index: 10; */
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.right .text2 {
+    width: 260px;
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid rgb(203, 203, 203);
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+/* 装输入框的div */
+.form .tupian{
+    position: relative;
+    width: 415px; 
+}
+/* 图片验证码 */
+#captcha{
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+.right .text3 {
+    width: 415px;
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid rgb(203, 203, 203);
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+.right .text4 {
+    display: inline-block;
+    width: 147px;
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid rgb(203, 203, 203);
+    background: #f5f5f5;
+    margin-top: 0px;
+    font-size: 12px;
+    text-align: center;
+
+}
+/* 注册按钮 */
+.right .anniu {
+    width: 415px;
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid rgb(203, 203, 203);
+    z-index: 10;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+input {
+    font-size: 16px;
+    color: #acacac;
+}
+/* 提示信息span */
+.first {
+    font-size: 12px;
+    color: #acacac;
+    display: none;
+}
+.two {
+    width: 200px;
+    font-size: 12px;
+    border: orange;
+    color: #b52024;
+    background: papayawhip;
+    /* ; */
+}
+.hidden{
+    display: none;
+}
+.block{
+    display:block;
+}
+
+/* 密码强度提示 */
+.form .mima{
+    height:90px;
+}
+.safe{
+    display: inline-block;
+    height: 14px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.level{
+    /* display: inline-block; */
+    width: 300px;
+    height: 20px;
+    display: none;
+   
+}
+.safelevel .pwd-level{
+    display: inline-block;
+    width:60px;
+    height: 14px;
+    margin-top: 2px;
+    margin-left: 2px;
+    
+}
+.safelevel{
+    display: inline-block;
+    width: 200px;
+    height: 14px;
+    border: 3px solid #efefef;
+    border-radius: 10px;
+     
+}
+.bottom{
+    width:1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.copy{
+    width: 1000px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    
+}

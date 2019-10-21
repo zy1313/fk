@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+/* #Head{
+    width: 100%;
+    height: 100%;
+    background: red;
+
+}
+#headerTopArea{
+    width: 100%;
+    height: 32px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #808080;
+    background: green;
+}
+#logArea{
+    width: 980px;
+    height: 62px;
+    margin: 20px auto 25px;
+    background: blue;
+}
+.navlist{
+    width: 780px;
+    height: 22px!important;
+    margin: 30px auto!important;
+    padding-left: 200px!important;
+    position: relative!important;
+    z-index: 300!important;
+    background: orchid;
+}
+.top_loginArea{
+    float: right;
+}
+.recommendArea{
+margin: 0px 0 0 8px;
+float: right;
+display: inline; 
+   }  */
+   /* .topWarp{
+       width: 100%;
+       height: 40px;
+       background: #f7f7f7;
+   }
+   .top{
+       width: 1200px;
+       height: 40px;
+       margin: 0 auto;
+       background:red;
+    
+   }
+   .topList{
+       width: 534px;
+       height: 40px;
+   }
+   .topList ul{
+    width: 534px;
+    height: 40px;
+    float:right;
+}
+.topList li{
+    width: 90px;
+    height: 40px;
+    font-size: 12px;
+    float: left;
+} */
+.headerTopAreaBox {
+    width: 100%;
+    height: 32px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #808080;
+}
+.headerTopArea {
+    width: 100%;
+    height: 31px;
+    background: #f7f7f7;
+}
+.headerTopArea .headerTop {
+    width: 980px;
+    height: 31px;
+    line-height: 32px;
+    margin: 0 auto;
+    _overflow: hidden;
+    background: #f7f7f7;
+}
+.headerTopArea .headerTopRight {
+    width: 420px;
+    float: right;
+    position: relative;
+    z-index: 9000;
+}
+#vanclCustomer {
+    width: 70px;
+    height: 18px;
+    line-height: 18px;
+    margin: 7px 0px 0 0px;
+    float: left;
+    display: inline;
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+}
+.headerTopArea .mapDropTitle {
+    background-position: 0px 0px;
+    display: block;
+}
+.headerTopArea .payattention {
+    float: right;
+}
+.payattention em {
+    background-position: 0px -117px;
+    width: 47px;
+    height: 22px;
+    display: none;
+}
+.headerTopAreaBox a {
+    color: #808080;
+}
+.vweixinbox {
+    float: left;
+    position: relative;
+}
+.vweixinbox .vweixin {
+    background-position: -24px -23px;
+    float: left;
+    margin-left: 10px;
+    display: inline;
+    cursor: pointer;
+    height: 21px;
+}
+.vweixinbox .vweixinTip {
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 0px;
+    top: 30px;
+    border: 1px solid #e5e5e5;
+    background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat;
+    overflow: hidden;
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
+}
+.headerTopArea .headerTopLeft {
+    min-width: 240px;
+    _width: auto!important;
+    _width: 240px;
+    float: right;
+}
+.headerTopArea .loginArea {
+    float: left;
+}
+.headerTopArea .loginArea span {
+    color: #808080;
+}
+.full .headerTopArea .recommendArea {
+    margin: 0px 0 0 13px;
+    float: left;
+    display: inline;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/first.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/captcha-mini.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <img src="http://i1.vanclimg.com/cms/20160119/logo_new.jpg" alt="">
+        <a href="">帮助</a>
+    </div>
+    <div class="content">
+        <div class="left">
+            <img src="http://i1.vanclimg.com/cms/20160902/login120412_newlogo.jpg" alt="">
+        </div>
+        <div class="right">
+            <h1>凡客 Vancl 登录
+                <span>没有账户免费
+                    <a href="http://127.0.0.1/PHP/fk/src/html/register1.html">注册</a>
+                </span>
+            </h1>
+            <ul id="tags">
+                        <li class="on">普通登录</li>
+                        <li class="">快速登录</li>
+                    </ul>
+            <div class="form">
+                <div class="list">
+                    
+               <!-- 普通登录 -->
+               <div class="user_infor">
+                    <form action="">
+                        <div id="_uname" class="newtxt">
+                            <input id="vanclUserName"type="text" value="" class="inputtextcolor" placeholder="请输入用户名">
+                        </div>
+                        <div id="vanclUserNameError" class="tips">
+                            用户名不能为空!
+                        </div>
+                        <div id="_upwd" class="newtxt">
+                            <input id="vanclPassword"type="password" class="inputtextcolor"
+                                value="" placeholder="请输入密码">
+                        </div>
+                        <div id="vanclPasswordError" class="tips">
+                            密码不能为空!
+                        </div>
+                        <div class="bt">
+
+                            <span id="userThaw" style="display:none;"><a class="forget"
+                                    href="ThawUser.aspx">账户解冻</a></span>
+                            <a class="forget" href="https://login.vancl.com/login/GetPwdStep1.aspx">找回密码</a>
+                            <div class="clear">
+                            </div>
+                            <button id="login" class="log" style="height: 45px;
+                            width: 363px;
+                            line-height: 45px;
+                            background: #b42025;
+                            color: #fff;
+                            text-align: center;
+                            font-size: 20px;
+                            border: 0;margin: 10px 29px;">登 录</button> 
+                            <div class="picture">
+                                <img src="../img/12.png" alt="">
+                            </div>    
+                        </div>
+                    </form>
+</div>
+<!-- 快速登录区 -->
+
+<div class="user_infor" style="display: none;">
+    <div id="_quickmobile" class="newtxt" style="width: 250px; float: left;">
+        <label style="z-index: 10;">
+            <!-- 输入手机号 -->
+        </label>
+        <input id="_quick" type="text" value="" placeholder="输入手机号" style="width:220px">
+    </div>
+    <a class="asPhoneregBtn" id="getSmsCode" style="display: block">
+        获取短信验证码</a>
+    <div class="asPhoneregBtn" style="display: none" id="sendedSmsCode">
+        已发送
+    </div>
+    <div class="asPhoneregBtn" style="display: none" id="sendingSmsCode">
+        正在发送验证码
+    </div>
+    <div id="err_phone" class="tips" style="width: 80%;">
+    </div>
+    <div id="_quickcode" class="newtxt" style="border: 0 none;">
+        <input id="_quickpiccode" name="vanclUserName" type="text" value="" placeholder="验证码" style="width: 142px;
+            border: solid 1px #cbcbcb; height: 43px; line-height: 43px;">
+            <canvas width="120" height="43" id="captcha"></canvas>
+        <a style="cursor: pointer; float: right; line-height: 18px;margin-top: 28px;" >
+            看不清?换一张</a>
+    </div>
+    <div id="picmsg" class="tips">
+        验证码不能为空!
+    </div>
+    <div id="code" class="newtxt">
+        <input id="mobilevalidcode" type="text" value="" placeholder="请输入手机验证码">
+    </div>
+    <div id="mobilecodemsg" class="tips">
+        请输入有效的手机号码!
+    </div>
+    <button id="login" class="log" style="height: 45px;
+    width: 363px;
+    line-height: 45px;
+    background: #b42025;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    border: 0;margin: 10px 29px;">登 录</button> 
+    <div class="picture">
+            <img src="../img/12.png" alt="">
+        </div>
+</div>
+
+
+ </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="botton">
+
+            <div class="footBottomTab">
+                <p> Copyright 2007 - 2019 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+                <p> 凡客诚品（北京）科技有限公司</p></div>
+    </div>
+    <div class="footcopy">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href="">
+                <img src="//i.vanclimg.com/other/kexin_brand_for_others.png" alt="">
+            </a>
+        </div>
+
+
+</body>
+
+</html>

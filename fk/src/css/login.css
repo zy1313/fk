@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+.top {
+    width: 1200px;
+    height: 59px;
+    /* margin:10px 0 0 0; */
+    padding: 0 0 10px 0;
+    border-bottom: solid 1px #919191;
+    margin: 10px auto;
+}
+.top a{
+    float: right;
+    line-height: 59px;
+    color: black;
+    font-size: 12px;
+}
+.content {
+    width: 1200px;
+    height: 547px;
+    margin: 30px auto;
+    position: relative;
+    /* background: lightpink */
+}
+
+.content .left {
+    width: 465px;
+    height: 500px;
+    /* border-left: 1px solid #C3C3C3; */
+    float: left;
+    /* background-color: #F9F9F9; */
+    margin: 0 0 0 130px;
+    /* background: lightsalmon; */
+
+}
+
+.left img {
+    position: absolute;
+    left: 130px;
+    top: 80px;
+}
+
+.content .right {
+    width: 465px;
+    height: 500px;
+    /* background: lightyellow; */
+    float: right;
+    margin-right: 124px;
+}
+.right h1 {
+    height: 35px;
+    width: 415px;
+    font-size: 22px;
+    color:#979797;
+    margin-top: 20px;
+    font-weight: bold;
+    
+    float: right;
+    line-height: 35px;
+}
+
+.right h1 span {
+    font-size: 16px;
+    color: #979797;
+    float: right;
+    font-weight: normal;
+}
+
+.right h1 span a {
+    color: #b52024;
+    font-weight: normal;
+}
+
+
+.right .form .list {
+    height: 450px;
+    margin-top: 60px;
+    margin-left: 40px;
+    border: solid gray 1px;
+
+}
+#tags{
+    margin-left: 41px;
+}
+#tags li{
+width: 211px;
+height: 35px;
+float: left;
+background:#979797;
+text-align: center;
+line-height: 35px;
+}
+.form form{
+    height: 280px;
+    margin-top: 60px;
+    /* background: hotpink; */
+    display: block;
+}
+
+.newtxt input{
+    height: 45px;
+    width: 360px;
+    line-height: 45px;
+    color: #656565;
+    margin-left: 30px;
+   margin-top: 10px;  
+}
+.tips {
+    clear: both;
+    width: 220px;
+    min-height: 16px;
+    line-height: 16px;
+    /* color: #A10000; */
+    color:black;
+    text-indent: 30px;
+    background: url(https://ssl.vanclimg.com/login/login_spritesbg.png) -351px -662px no-repeat;
+    background-color: #FFF6F7;
+    border: 1px solid #CC9998;
+    margin-left: 48px;
+    display: block;
+    visibility: hidden;
+    /* visibility: visible; */
+}
+.on {
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    background: #b42025 !important;
+    color: #fff;
+    font-weight: bolder;
+}
+.bt a.forget {
+    line-height: 30px;
+    display: inline;
+    color: #b42025;
+    font-size: 14px;
+    font-weight: bolder;
+    /* float: right; */
+    margin-left: 350px;
+}
+.lines {
+    border-bottom: dotted 1px #909090;
+    width: 100%;
+    height: 1px;
+    overflow: hidden;
+}
+.hezuo {
+    color: #a4a4a4;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.blank10 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 10px;
+}
+.clear {
+    clear: both;
+    line-height: 0px;
+    font-size: 0px;
+}
+.asPhoneregBtn {
+    width: 97px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background: #f5f5f5;
+    color: #b52024!important;
+    border: solid 1px #cbcbcb;
+    display: block;
+    float: left;
+    margin: 0 0 0 10px;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.picture{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* 快速登录 */
+#getSmsCode{
+    margin-top: 11px;
+}
+#_quickcode{
+    position: relative;
+}
+#captcha{
+    position: absolute;
+    left: 191px;
+    top: 12px;
+}
